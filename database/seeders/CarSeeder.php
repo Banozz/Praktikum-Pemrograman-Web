@@ -14,7 +14,7 @@ class CarSeeder extends Seeder
     public function run(): void
     {
         Car::create([
-            'carName' => 'LC500',
+            'carName' => 'LFA Nurburgring',
             'brandName' => 'Lexus', 
             'carPrice' => 100000.00
         ]);
